@@ -1,0 +1,78 @@
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(233, 47%, 7%); 
+    padding: 50px; 
+    margin-block: 80px;
+  }
+
+  .container{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1px;
+    line-height: 2.2rem;
+  }
+  
+  li{
+    list-style: none;
+  }
+
+  img{
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+  }
+
+  .row1{
+    border-radius: 2rem; overflow: hidden;
+  }
+
+  .item{
+    background: hsl(277, 64%, 61%);
+  }
+
+  .caixa {
+    background: hsl(244, 38%, 16%);
+    font-family: 'Nerko One', cursive;
+    padding-bottom: 0;
+  }
+
+  strong{
+    color: hsl(277, 64%, 61%);
+  }
+
+  h2{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    justify-items: flex-end;
+    margin-block-start: 2rem;
+  }
+
+  h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+  }
+
+  p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  @media only screen and (max-width: 30rem) {
+    body {
+      min-width: 100%;
+    }
+}
