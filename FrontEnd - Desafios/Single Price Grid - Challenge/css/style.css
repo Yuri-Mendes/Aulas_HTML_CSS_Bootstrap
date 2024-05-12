@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    background-color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    font-size: 1.5rem;
+}
+
+h2{
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    font-size: 1rem;
+}
+
+h3{
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    font-size: 0.9rem; 
+}
+
+h4{
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h5{
+    color: hsl(204, 43%, 93%); 
+    margin-bottom: 1.5rem;
+}
+
+strong{
+    font-size: 2rem;
+}
+
+.btn{
+    background-color: hsl(71, 73%, 54%);
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 3rem;
+    font-style: bold;
+    color: #fff;
+}
+
+.a{
+    font-size: 1rem;
+    color: hsl(204, 43%, 93%); 
+}
+
+p{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.8rem;
+}
+
+.row{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 720px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+    padding: 4rem;
+    margin-top: 2rem;
+}
+
+.col1{
+    background-color: hsl(210, 29%, 97%);
+}
+
+.col2{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.col3{
+    background-color: hsl(179, 46%, 58%);
+    line-height: 0.3rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 30rem) {
+    body {
+      min-width: 100%;
+    }
+}
+
+
+/*
+  Join our community
+
+  30-day, hassle-free money back guarantee
+
+  Gain access to our full library of tutorials along with expert code reviews. 
+  Perfect for any developers who are serious about honing their skills.
+
+  Monthly Subscription
+
+  &dollar;29 per month
+
+  Full access for less than &dollar;1 a day
+
+  Sign Up
+
+  Why Us
+
+  Tutorials by industry experts
+  Peer &amp; expert code review
+  Coding exercises
+  Access to our GitHub repos
+  Community forum
+  Flashcard decks
+  New videos every week */
