@@ -1,0 +1,167 @@
+/* Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+### Neutral
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%) */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 0.1px);
+  margin: 0 1.5rem;
+}
+
+button,
+li {
+  font-family: inherit;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+}
+
+h1,
+.price {
+  font-family: "Fraunces", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.container h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.container article:first-child img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.container article:last-child {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0 0 1rem 1rem;
+  margin-top: -1rem;
+}
+
+.container p {
+  margin-bottom: 2rem;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.container ul li:first-child {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+.container ul li:nth-child(2) {
+  color: hsl(228, 12%, 48%);
+}
+
+.container .btn {
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.625rem;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .btn:hover {
+  background-color: hsl(158, 38%, 20%);
+}
+
+.container .btn img {
+  margin-right: 0.5rem;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 640px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container article:first-child img {
+    border-radius: 0.625rem 0 0 0.625rem;
+    width: 100%;
+  }
+
+  .container article:last-child {
+    border-radius: 0 0.625rem 0.625rem 0;
+    margin-top: 0;
+    padding: 1.5rem 1.5rem 0;
+  }
+
+  picture img {
+    height: 100%;
+  }
+
+  .container p {
+    margin-bottom: 1rem;
+  }
+}
