@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.col1{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: top right 20px;
+}
+
+.col2{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.col3{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.col4{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.col5{
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+h1, h2{
+    font-size: 1rem;
+    line-height: 0.5;
+}
+
+.title{
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.subtitle{
+    color:hsl(0, 0%, 100%);
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.title1{
+    color:hsl(217, 19%, 35%);
+    font-weight: 600;
+}
+
+.subtitle1{
+    color:hsl(217, 19%, 35%);
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+    padding: 4rem;
+    margin-top: 2rem;
+}
+
+.container .avatar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 1rem;
+}
+  
+.container .avatar img{
+    width: 10rem;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.content-title{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color:hsl(0, 0%, 100%);
+}
+
+.content-text{
+    opacity: 70%;
+    color:hsl(0, 0%, 100%);
+    ;
+}
+
+.content-title1{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color:hsl(217, 19%, 35%);
+}
+
+.content-text1{
+    opacity: 70%;
+    color:hsl(217, 19%, 35%);
+}
+
+.row{
+    overflow: auto;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 30rem) {
+    body {
+      min-width: 100%;
+    }
+}
+

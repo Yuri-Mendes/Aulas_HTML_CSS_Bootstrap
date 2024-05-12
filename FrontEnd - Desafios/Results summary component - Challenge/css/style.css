@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+    /* Gradients */
+    --grad-light-slate-blue: hsl(252, 100%, 67%);
+    --grad-light-royal-blue: hsl(241, 81%, 54%);
+    --grad-violet-blue: hsla(256, 72%, 46%, 1);
+    --grad-persian-blue: hsla(241, 72%, 46%, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    background-color: #fff;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    max-width: 43.75rem;
+    margin: 0 auto;
+    line-height: 1.4rem;
+    padding: 4rem;
+    margin-top: 3.5rem;
+}
+
+.circle{
+  background-image: linear-gradient(var(--grad-violet-blue), var(--grad-persian-blue));
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 1em auto;
+  padding: 10px;
+  margin-bottom: 1.5em;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+  h1{
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(0, 0%, 95%);
+  }
+
+  p{
+    font-family: 'Lexend Deca', cursive;
+    font-weight: 400;
+    font-size: 0.89rem;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .col1{
+    color: hsl(241, 100%, 89%);
+    background-image: linear-gradient(var(--grad-light-slate-blue), var(--grad-light-royal-blue));
+  }
+
+  .col2{
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .col3{
+    background-color: hsl(179, 100%, 13%);
+  }
+
+  .attribution { 
+    font-size: 15px; text-align: center; 
+  }
+
+  .btn{
+    border-radius: 4rem;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    padding: 0.5rem;
+    width: 7rem;
+    font-size: 12px;
+    margin-top: 3rem;
+    font-style: bold;
+  }
+
+  .row{ 
+    border-radius: 20px; overflow: hidden; 
+  }
+
+  .btn:hover{
+    background-color: transparent;
+  }
+  
+  @media only screen and (max-width: 30rem) {
+    body {
+      min-width: 100%;
+    }
+  }
